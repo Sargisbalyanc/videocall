@@ -1,0 +1,732 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+.add_name_input{
+  border-radius: 8px;
+  width: 100%;
+  height: 40px;
+  background: #949494;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-left: 16px;
+  margin-top: 8px;
+}
+.add_name_input:focus{
+  border: 1px solid #fff;
+}
+.modal_body{
+  padding:24px;
+}
+.table_users_information_content_name,
+.table_users_information_content_avarage
+{
+  width: 40%;
+}
+.table_users_information_content_audios{
+  width: 20%;
+}
+#modal-1___BV_modal_content_{
+  background: #515151 !important;
+
+}
+#addNewUsers___BV_modal_body_{
+  padding: 0!important;
+}
+.modal_body{
+  background: #515151 ;
+
+}
+#addNewUsers___BV_modal_body_ .modal-body{
+  padding: 0px !important;
+}
+.btn_groups{
+  background: #515151 ;
+  margin-top: 32px;
+
+}
+.ok_btn{
+  background: #BB6BD9;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 54px;
+  margin-left: 24px;
+}
+.addNewUsers___BV_modal_content_{
+  border-radius: 8px ;
+}
+.ok_btn:hover{
+  background: #a622d6;
+color: #fff;
+}
+.cancelbtn{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 8px;
+  border: none;
+  background: transparent;
+}
+.cancelbtn:hover{
+  color: #bdbdbd;
+}
+#modal-1___BV_modal_content_ {
+  border: none;
+  -webkit-box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  width: 558px;
+}
+.error {
+  position: absolute;
+  color: red;
+  top: 175px;
+}
+.user_all_info_content.hide {
+  display: none;
+}
+.modal-dialog{
+  margin-top: 200px;
+}
+select {
+  height: 40px;
+  background: #949494;
+  color: #fff;
+  margin-right: 8px;
+  border-radius: 4px;
+  width: 150px;
+}
+.timeInput{
+  height: 41px;
+  background: #949494;
+  border-radius: 4px;
+  color: #fff;
+  margin-right: 8px;
+  padding-left: 8px;
+}
+.userstableAdds {
+  width: 40px;
+  height: 40px;
+  background: #333;
+  color: #fff;
+}
+.addnew_users {
+  display: flex;
+}
+.users_data_infos {
+  display: flex;
+  justify-content: center;
+}
+.users_data_infos2{
+  display: flex;
+  justify-content: center;
+  background: #2b2b2b;
+  width: 33.3%;
+  border-right: 1px solid #2b2b2b !important;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  border-radius: 0 8px 8px 0 !important;
+}
+.hide_show_m {
+  display: flex;
+}
+.times_tabel_for_users_content_loast {
+  display: flex;
+  justify-content: space-between;
+}
+.name_tabel_for_users_least {
+  font-family: -webkit-pictograph;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #eb5757;
+}
+.name_tabel_for_users_most {
+  font-family: -webkit-pictograph;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #27ae60;
+}
+.auditStart{
+  margin-right: 8px;
+}
+.users{
+  padding-top: 2px;
+}
+.table_users_name_time_most {
+  display: flex;
+  justify-content: space-between;
+}
+.users_info_title_user141 {
+  background: #333333;
+  border-radius: 8px 0px 0px 8px;
+  width: 50%;
+  padding: 16px;
+  box-shadow: inset 0px -1px 0px rgba(154, 154, 154, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.users_info_title_user142 {
+  background: #333333;
+  border-radius: 0px 8px 8px 0px;
+  width: 50%;
+   padding: 16px;
+  box-shadow: inset 0px -1px 0px rgba(154, 154, 154, 0.25);
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #4f4f4f;
+  justify-content: center;
+}
+.table_users_name-content {
+  height: 215px;
+  overflow: auto;
+}
+.users_quantity {
+  display: flex;
+  justify-content: center;
+}
+.times_tabel_for_users_content {
+  display: flex;
+  justify-content: center;
+  border-left: 1px solid #4f4f4f;
+}
+.table_users_name_time:hover {
+  background: #333;
+}
+.times_tabel_for_users {
+  font-family: -webkit-pictograph;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.name_tabel_for_users {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #bdbdbd;
+  margin-right: 16px;
+}
+.table_users_name_time {
+  display: flex;
+}
+.table_users_name_time div {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.last_most{
+  width: 50%;
+}
+.information_user_tolk_time {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.users_info_title_user24 {
+  width: 40%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  box-shadow: inset 0px -1px 0px rgba(154, 154, 154, 0.25);
+  display: flex;
+  align-items: center;
+}
+.user_info_content{
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.user_info_content:hover{
+  background: #e7e7e7;
+  border-radius: 4px;
+}
+.user_info_content:hover .name_tabel_for_users{
+  color: #333
+}
+.users_quantity{
+  width: 20%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  box-shadow: inset 0px -1px 0px rgba(154, 154, 154, 0.25);
+  display: flex;
+  align-items: center;
+}
+.time_info_content {
+  width: 35%;
+}
+.content-time-blok-1 {
+  border-radius: 16px;
+  padding: 16px;
+  background: #2a2a2a;
+  margin-bottom: 40px;
+}
+.table_conferanse_-content {
+  width: 65%;
+  margin-right: 40px;
+  padding: 24px;
+}
+.user_name_table {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.information_content {
+  width: 100%;
+  padding-bottom: 24px;
+}
+.user_conferase_content {
+  background: #2b2b2b;
+  width: 33.3%;
+  border-right: 1px solid #4f4f4f;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+}
+.user_average {
+  border-right: 1px solid #2b2b2b !important;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.user_all_info_content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.user_name {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #bdbdbd;
+}
+.user_name2 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.table_conferanse {
+  box-sizing: border-box;
+  background: #333333;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  padding-top: 24px;
+  padding-right: 24px;
+}
+.table_conferanse_blok {
+  width: 100%;
+}
+.hide {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 8px;
+}
+.hide_btn {
+  margin-right: 24px;
+  background: #333;
+  cursor: pointer;
+  width: 95px;
+  height: 32px;
+  border: 1px solid #bb6bd9;
+  box-sizing: border-box;
+  border-radius: 24px;
+  transition: 250ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hide_btn:hover {
+  background: #bb6bd9;
+  transition: 250ms;
+}
+.show {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+  margin-left: 8px;
+}
+.show_btn {
+  margin-right: 24px;
+  width: 95px;
+  height: 32px;
+  border-radius: 24px;
+  transition: 250ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #333;
+  cursor: pointer;
+}
+.show_btn:hover {
+  background: #bb6bd9;
+  transition: 250ms;
+}
+.hide_show_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select_all {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+.add_new {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 8px;
+}
+.select_add_new {
+  display: flex;
+  align-items: center;
+}
+.add_new_btn {
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 36px;
+  background: transparent;
+  border-radius: 16px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bb6bd9;
+  transition: 250ms;
+}
+.users {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.users_info_content {
+  margin-top: 24px;
+  display: flex;
+  width: 100%;
+  padding-bottom: 16px;
+  box-shadow: inset 0px -1px 0px rgba(154, 154, 154, 0.25);
+  margin-bottom: 32px;
+}
+.users_info_title {
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hide_show_content{
+  margin-bottom: 16px;
+}
+.users_info_title_user {
+  width: 33.3%;
+}
+.time_title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #828282;
+  margin-left: 8px;
+}
+.conferance-content {
+  background: #333;
+  padding-top: 24px;
+  width: 100%;
+  min-height: 100vh;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.checkbox-label,
+.radio-label {
+  height: 24px;
+  position: relative ;
+  padding-left: 24px ;
+  margin: 0 ;
+  cursor: pointer;
+}
+.checkbox-label:before,
+.radio-label:before {
+  content: "" ;
+  display: block ;
+  width: 16px ;
+  height: 16px ;
+  position: absolute ;
+  top: calc(50% - 8px) ;
+  left: 0 ;
+  border: 1px solid #828282 ;
+  border-radius: 4px ;
+}
+
+.checkbox-label:after,
+.radio-label:after {
+  content: "" ;
+  display: block ;
+  width: 9px ;
+  height: 8px ;
+  position: absolute ;
+  top: calc(50% - 4px) ;
+  left: 3.5px ;
+  background-color: #bb6bd9 ;
+  transition: 0.2s ease ;
+}
+@media (max-width: 1366px) {
+  .checkbox-label:after,
+  .radio-label:after {
+    content: "" ;
+    display: block ;
+    width: 8px ;
+    height: 8px ;
+    position: absolute ;
+    top: calc(50% - 4px) ;
+    left: 4px ;
+    background-color: #bb6bd9 ;
+    transition: 0.2s ease ;
+  }
+}
+.radio-label:before,
+.radio-label:after {
+  border-radius: 50% ;
+}
+
+input[type="checkbox"] + label:after {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+input[type="checkbox"]:checked + label:after {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+input[type="radio"] + label:after {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+input[type="radio"]:checked + label:after {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.toggle-label {
+  height: 24px;
+  position: relative;
+  padding-left: 64px;
+  margin: 0 !important;
+}
+
+.toggle-label:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 52px;
+  height: 24px;
+  border: 1px solid #dde2e5;
+  border-radius: 16px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.toggle-label:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  background-color: #dde2e5;
+  border-radius: 50%;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + .toggle-label:after {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+input[type="checkbox"]:checked + .toggle-label:before {
+  background-color: #bb6bd9;
+  border-color: #bb6bd9;
+}
+
+input[type="checkbox"]:checked + .toggle-label:after {
+  -webkit-transform: scale(1) translateX(27px);
+  transform: scale(1) translateX(27px);
+  background-color: #fff;
+}
+@media (max-width: 1366px) {
+  .add_name_input{
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    background: #949494;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-left: 16px;
+    margin-top: 8px;
+  }
+  .ok_btn{
+    background: #BB6BD9;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 54px;
+    margin-left: 24px;
+  }
+  .cancelbtn{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 8px;
+    border: none;
+    background: transparent;
+  }
+  .name_tabel_for_users_least {
+    font-family: -webkit-pictograph;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #eb5757;
+  }
+  .name_tabel_for_users_most {
+    font-family: -webkit-pictograph;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #27ae60;
+  }
+  .times_tabel_for_users {
+    font-family: -webkit-pictograph;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .name_tabel_for_users {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #bdbdbd;
+    margin-right: 16px;
+  }
+
+  .user_name {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #bdbdbd;
+  }
+  .user_name2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .users {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  } 
+}
